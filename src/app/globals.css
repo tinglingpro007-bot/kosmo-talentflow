@@ -4,38 +4,38 @@
   /* ═══ KOSMO DESIGN TOKENS (Adaptables por proyecto) ═══ */
 
   /* Paleta semántica */
-  --app-primary: #0f766e;
-  --app-primary-rgb: 15, 118, 110;
-  --app-secondary: #64748b;
-  --app-secondary-rgb: 100, 116, 139;
-  --app-success: #16a34a;
-  --app-success-rgb: 22, 163, 74;
-  --app-warning: #d97706;
-  --app-warning-rgb: 217, 119, 6;
-  --app-danger: #dc2626;
-  --app-danger-rgb: 220, 38, 38;
-  --app-accent: #0ea5e9;
-  --app-accent-rgb: 14, 165, 233;
+  --app-primary: #007ba0;
+  --app-primary-rgb: 0, 123, 160;
+  --app-secondary: #826c65;
+  --app-secondary-rgb: 130, 108, 101;
+  --app-success: #36912e;
+  --app-success-rgb: 54, 145, 46;
+  --app-warning: #cd8800;
+  --app-warning-rgb: 205, 136, 0;
+  --app-danger: #cc2827;
+  --app-danger-rgb: 204, 40, 39;
+  --app-accent: #5a7bd3;
+  --app-accent-rgb: 90, 123, 211;
 
   /* Superficies y texto */
-  --app-body-bg: #f8fafc;
+  --app-body-bg: #f4fcfe;
   --app-card-bg: #ffffff;
-  --app-muted-bg: #f1f5f9;
+  --app-muted-bg: #e4f1f5;
   --app-muted-text: #64748b;
   --app-border: #e2e8f0;
   --app-text: #1e293b;
   --app-text-secondary: #475569;
 
   /* Tipografía */
-  --app-font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-  --app-font-heading: var(--app-font);
+  --app-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --app-font-heading: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   /* Formas y Sombras */
   --app-radius: 0.5rem;
   --app-radius-sm: 0.25rem;
   --app-radius-lg: 0.75rem;
   --app-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-  --app-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --app-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
   --app-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
 
   /* ═══ BOOTSTRAP 5 CSS VARIABLES OVERRIDE ═══ */
@@ -72,7 +72,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--app-font-heading);
 }
 
-/* Card custom styling */
 .card {
   border: 1px solid var(--bs-border-color);
   border-radius: var(--bs-border-radius);
@@ -81,7 +80,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: box-shadow 0.15s ease, border-color 0.15s ease;
 }
 
-/* Table wrapper & density */
 .table-responsive {
   border-radius: var(--bs-border-radius);
   border: 1px solid var(--bs-border-color);
@@ -94,7 +92,6 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 
-/* Sidebar responsive navigation */
 .app-sidebar {
   width: 260px;
   background-color: var(--app-card-bg);
@@ -126,7 +123,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-/* Skeleton Loading Shimmer */
 @keyframes kosmo-shimmer {
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
@@ -139,7 +135,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: var(--bs-border-radius-sm);
 }
 
-/* Timeline component styling */
 .kosmo-timeline {
   position: relative;
   padding-left: 1.5rem;

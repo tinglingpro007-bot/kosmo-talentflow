@@ -7,4 +7,4 @@
  * Los slices en `src/features/<slug>/` pueden importar desde `src/domain/` para
  * reutilizar la persistencia y reglas de entidades comunes sin acoplarse directamente entre sí.
  */
-export {};
+export * from "./vacancies";
